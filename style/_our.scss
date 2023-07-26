@@ -1,0 +1,95 @@
+.our{
+    background-color: #fff;
+    padding: 48px 0px;
+.powers{
+p{
+    font-size: 18px;
+    padding-top: 8px;
+    }
+}
+.per{
+    display: flex;
+    align-items: center;
+    padding-top: 48px;
+    gap: 16px;
+}
+.per2{
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    gap: 16px;
+}
+.clients{
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    gap: 16px;
+}
+.clients2{
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    gap: 16px;
+}
+}
+@media screen and (min-width:768px){
+.our{
+    padding: 80px 0px;
+.years{
+h1{
+    font-size: 40px;
+    }
+p{
+    font-size: 21px;
+    }
+    }    
+    }
+.downloads{
+    display: flex;
+    gap:220px;
+    padding-bottom: 40px;
+    
+.per2{
+    padding-top: 50px;
+    }
+    }
+.downloads2{
+    display: flex;
+    gap: 300px;
+    }
+}
+@media screen and (min-width:1200px){
+    .powers{
+        display: flex;
+        justify-content: space-between;
+    }
+    .our{
+        .years{
+            padding-top: 100px;
+            h1{
+                font-size: 37px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+    
+    .dovn{
+        padding-right: 0px;
+    }
+    .downloads{
+        display: flex;
+        gap: 110px;
+    }
+    .per{
+        display: flex;
+        padding: 0px;
+    }
+    .downloads2{
+        gap: 180px;
+    }
+    
+}
+
+

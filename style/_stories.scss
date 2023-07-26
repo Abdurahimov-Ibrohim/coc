@@ -1,0 +1,169 @@
+.stories{
+    background: #D5FAFC;
+    padding: 170px 0px 20px 10px;
+    .anyone{
+        position: relative;
+        .startup1{
+            .images1{
+                img{
+                    position: absolute;
+                    top: -57px;
+                    left: -16px;
+        
+                }
+            }
+            margin-top: -60px;
+        }
+    }
+
+.hubspot1{
+    display: none;
+}
+}
+.from{
+    
+h1{
+    font-size: 37px;
+    padding-bottom: 20px;
+}
+}
+.startup2{
+    margin-top: 40px;
+.hubspot2{
+    border-radius: 8px;
+    padding: 32px 30px 32px 30px;
+    background: #fff;
+.images1{
+    padding-bottom: 30px;
+}
+.page2{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 30px;
+.images2{
+img{
+    max-width: 30px;
+}
+}
+p{
+    font-size: 20px;
+}
+}
+.jane{
+    padding-left: 25px;
+h1{
+    font-size: 20px;
+}
+}
+}
+}
+.xubspot1{
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 32px 30px 32px 30px;
+    background: #fff;
+.images1{
+    padding-bottom: 30px;
+}
+.page1{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 30px;
+.images2{
+img{
+    max-width: 30px;
+}
+}
+p{
+    font-size: 20px;
+}
+}
+.floyd{
+    padding-left: 25px;
+h1{
+    font-size: 20px;
+}
+}
+}
+.hubspot3{
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 32px 30px 32px 30px;
+    background: #fff;
+.images1{
+    padding-bottom: 30px;
+}
+.page3{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 30px;
+.images2{
+img{
+    max-width: 30px;
+}
+}
+p{
+    font-size: 20px;
+}
+}
+.kristin{
+    padding-left: 25px;
+h1{
+    font-size: 20px;
+}
+}
+}
+@media screen and (min-width:768px){
+    .from{
+        p{
+            font-size: 20px;
+        }
+    }
+}
+@media screen and (min-width:1200px){
+    .xubspot1{
+        display: none;
+    }
+    .anyone{
+        display: flex;
+    }
+    .startup1{
+        padding: 70px 0px 0px 90px;
+    .hubspot1{
+        display: block;
+        }
+    }
+    .hubspot1{
+        border-radius: 8px;
+        margin: 40px 20px 0px 10px;
+        padding: 32px 30px 32px 30px;
+        background: #fff;
+    .images1{
+        padding-bottom: 30px;
+    }
+    .page1{
+        display: flex;
+        gap: 10px;
+        padding-bottom: 30px;
+    .images2{
+    img{
+        max-width: 30px;
+    }
+    }
+    p{
+        font-size: 20px;
+    }
+    }
+    .miles{
+        padding-left: 25px;
+    h1{
+        font-size: 20px;
+    }
+    }
+    }
+    .startup2{
+        margin: 50px 0px 50px 0px;
+    }
+}
+
+

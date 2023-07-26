@@ -1,0 +1,169 @@
+// telefon variant
+
+header {
+    background-image: url(../images/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+
+.nav_left {
+li {
+    display: none;
+    }
+    }
+
+.google_app {
+    display: none;
+    }
+}
+
+.hero {
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+
+.hero_left {
+    padding: 40px 0;
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: -0.9px;
+    color: #111827;
+    margin-bottom: 16px;
+    }
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 155.556%;
+    }
+
+.watch_get {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    }
+
+button {
+    padding: 16px 24px;
+    background-color: #7C3AED;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+    }
+
+.btn_right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 24px;
+
+p {
+    color: #7C3AED;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 150%;
+    }
+    }
+
+.btn_right:hover {
+    border: 1px solid #7C3AED;
+    border-radius: 8px;
+    }
+    }
+
+.hero_right {
+img {
+    max-width: 100%;
+    }
+    }
+}
+
+// tablet uchun
+@media screen and (min-width:768px) {
+.hero {
+    gap: 0;
+.hero_left {
+    padding: 80px 0;
+h1 {
+    font-size: 48px;
+    }
+    }
+    }
+
+.navbar {
+.google_app {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    }
+.nav_right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    }
+    }
+}
+
+@media screen and (min-width:1200px) {
+.hero {
+    flex-direction: row;
+    padding: 74px 0;
+    align-items: center;
+    gap: 88px;
+    h1{
+        min-width: 100%;
+    }.hero_left
+    {
+    h1{
+        font-size: 60px;
+        width: 648px;
+    }
+    }
+.hero_right {
+img {
+    max-width: 320px;
+    }
+    }
+    }
+
+.navbar {
+    padding: 20px 0;
+.nav_left {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+li {
+    display: block;
+a {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 142.857%;
+    color: #111827;
+    }
+    }
+    }
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    }
+.bars_icon{
+    display: none;
+    }
+    }  
+}

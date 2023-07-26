@@ -1,0 +1,26 @@
+.footer2{
+    background: #000000;
+}
+.license{
+    padding: 40px 0px;
+    .img1{
+        margin-bottom: 32px;
+    }
+}
+@media screen and (min-width:768px){
+    .license{
+        display: flex;
+        justify-content: space-between;
+        padding: 64px 0px;
+    }
+}
+@media screen and (min-width:1200px){
+.footer2{
+    background: #000000;
+}
+.license{
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 0px;
+}
+}

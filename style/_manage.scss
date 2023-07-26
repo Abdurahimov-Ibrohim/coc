@@ -1,0 +1,52 @@
+.footer1{
+    background: #1DB5BE;
+}
+.manage{
+    padding-top: 48px;
+}
+.from{
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 21px;
+        margin-top: 8px;
+    }
+}
+.bts{
+    margin-top: 48px;
+}
+.phoneimg{
+    margin-top: 32px;
+}
+.phoneimg2{
+    display: none;
+}
+@media screen and (min-width:768px){
+    .phoneimg2{
+        display: none;
+    }
+    .phoneimg{
+        display: flex;
+        gap: 128px;
+        .images2{
+            padding-top: 170px;
+        }
+    }
+}
+@media screen and (min-width:1200px){
+    .manage{
+        display: flex;
+    }
+    .phoneimg{
+        display: none;
+    }
+    .phoneimg2{
+        display: block;
+       margin: -64px 0px 0px 100px;
+        .images{
+            width: 465px;
+
+        }
+    }
+}

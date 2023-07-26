@@ -1,0 +1,46 @@
+.networks {
+    padding: 16px 0px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid #E5E7EB;
+    border-bottom: 2px solid #E5E7EB;
+}
+
+.icons1 {
+    padding-top: 24px;
+    padding-bottom: 32px;
+    display: flex;
+    gap: 64px;
+}
+
+.icons2 {
+    display: flex;
+    gap: 64px;
+}
+
+.icons3 {
+    padding-top: 32px;
+    padding-bottom: 24px;
+    display: flex;
+    gap: 64px;
+}
+
+@media screen and (min-width:768px) {
+.icons12 {
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+    } 
+.icons3 {
+    justify-content: center;
+    }
+}
+
+@media screen and (min-width:1200px) {
+.networks {
+    flex-direction: row;
+    gap: 64px;
+    justify-content: center;
+    }
+}
